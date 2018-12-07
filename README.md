@@ -7,3 +7,6 @@ The front-end is generated via `flex`. This can be obtained via (https://github.
 ## Goals
 
 The goal is to be a fully embeddable compiler, extending papyrus to a real working compatible language.
+
+## Papyrus Documentation
+Sadly there is no full language spec (meaning amounts of the language have to reverse engineered via the existing compiler as of right now) but the best place to go is Bethesda's (Language Reference)[https://www.creationkit.com/index.php?title=Papyrus_Language_Reference]
