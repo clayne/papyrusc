@@ -4,7 +4,7 @@
 %}
 
 digit [0-9]
-varnamechar [a-zA-Z_]
+varnamechar [a-zA-Z_] /* valid chars inside an identifier */
 
 %%
 
@@ -13,7 +13,7 @@ varnamechar [a-zA-Z_]
 {digit}+ {
 				yylval = atoi(yytext);
 				return INTEGER;
-		 }
+	}
 		 
  /* operators, mostly in order of precedence */
 ";" return COMMENT; 
@@ -71,7 +71,7 @@ varnamechar [a-zA-Z_]
 {varnamechar}({varnamechar}|{digit})* {
 										yylval.id = strdup(yytext);
 										return IDENT;
-									  }
+	}
 
 %%
 
