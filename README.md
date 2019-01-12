@@ -1,7 +1,7 @@
 # papyrusc
 Papyrus Compiler, designed with the intent to embed into OpenCK.
 
-Papyrus Compiler depends on the (currently being developed) [libpapyrus](https://github.com/Untelo/libpapyrus) by Untelo, a grammer parser for the Papyrus Language.
+Papyrus Compiler depends on the (currently being developed) [libpapyrus](https://github.com/vasama/libpapyrus) by Untelo, a grammer parser for the Papyrus Language.
 
 ## Working on this
 The front-end is libpapyrus, see above.
